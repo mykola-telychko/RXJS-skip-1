@@ -1,6 +1,7 @@
 import { interval } from 'rxjs';
 import { skip } from 'rxjs/operators';
 
+// https://www.learnrxjs.io/learn-rxjs/operators/filtering/skip
 // Example 1: Skipping values before emission
 //emit every 1s
 const srcInterval$ = interval(1000);
